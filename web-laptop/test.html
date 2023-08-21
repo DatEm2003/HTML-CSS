@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="utf-8">
+        <title>TMH | Laptop chính hãng.</title>
+        <script src="https://kit.fontawesome.com/4702f02b2a.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" type="image/png" href="img/shortcut.png"/>
+        <link rel="stylesheet" href="css/mainstyle.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        
+    </head>
+
+    <body>
+        <h1 id = "text">Hello World</h1>
+
+        <script>
+            var i = 0;
+            var light = ['img/pic_bulboff.gif', 'img/pic_bulbon.gif'];
+            setInterval(function(){
+                document.getElementById('img').src = light[i % light.length];
+                i++;
+            }, 500);
+
+            document.getElementById('text').innerHTML = 'innerHTML: Hiếu';
+            document.write('document.write: Hiếu');
+            window.alert('window.alert: Hiếu');
+            console.log('console.log: Hiếu');
+            
+        </script>
+        <button onclick="window.print()">Print</button>
+        <img id="img" src="img/pic_bulboff.gif" style="width:100px">
+        
+        <!--<button onclick="document.getElementById('myImage').src='img/pic_bulbon.gif'">Turn on the light</button>
+
+        <img id="myImage" src="img/pic_bulboff.gif" style="width:100px">
+
+        <button onclick="document.getElementById('myImage').src='img/pic_bulboff.gif'">Turn off the light</button> -->
+    </body>
+</html>

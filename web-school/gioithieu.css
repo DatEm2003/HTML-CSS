@@ -1,0 +1,14 @@
+#content{
+    width: 980px;
+    margin: 0px auto;
+   border-style: groove;
+   padding: 0px 5px;
+}
+h2{
+    text-align: center;
+    color: brown;
+}
+.text-center{
+    text-align: center;
+    font-weight: bold;
+}

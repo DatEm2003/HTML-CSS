@@ -1,0 +1,271 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+#wrapper{
+    width: 100%;
+    margin: auto;
+}
+/* start header */
+header.sticky{
+    opacity: 0.8;
+    z-index: 10;
+    position: relative;
+}
+.header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #0056a3;
+    display: inline-flex;
+    transition: all 0.5s ease-in-out;
+}
+
+.logo{
+    padding-left: 70px;
+}
+
+/* menu */
+.menu ul{
+    color: white;
+}
+.menu ul li{
+  display: inline-block;
+ 
+}
+.menu ul li a{
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 18px;
+    font-weight: 700;
+}
+.menu ul li a:hover{
+    color: #b5b7ff;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px black;
+}
+.menu li ul{
+    position: absolute;
+    padding-left: 20px;
+    width: 150px;
+    line-height: 30px;
+    display: none;
+}
+.menu li:hover ul{
+    display: block;
+    background-color: #565ad3;
+}
+.menu li ul li a:hover{
+    color: #c1c3fd;
+}
+
+
+/* Seach.. */
+.seach-box{
+    margin-top: -70px;
+    width: 640px;
+    height: 29px;
+    background-color: #f7f7f7;
+    border-radius: 30px;
+}
+.seach-box .seach-text{
+   width: 90%;
+   height: 25px;
+   border-radius: 30px;
+   border: none;
+   outline: none;
+   padding-right: 20px;
+   font-size: 18px;
+   margin-left: 10px;
+   margin-top: 2px;
+}
+.seach-box .seach-btn{
+    cursor: pointer;
+    float: right;
+    width: 29px;
+    height: 29px;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 5px;
+}
+/* banner */
+.img{
+   background-image: url(./img/B0202.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 190px;
+}
+.img1{
+    margin-top: -300px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+/*  button right */
+.nd-right{
+    float: right;
+    padding: 485px 200px 50px 100px;
+    margin-right: 50px;
+}
+.nd-right button{
+    width: 217px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 5px;
+    background-color: #1279d3;
+    font-size: 16px;
+    color: aliceblue;
+}
+.nd-right button:hover{
+    background-color: #e1e6eb;
+    color: rgb(26, 24, 24);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* end header */
+h1{
+    color: rgb(0, 4, 255);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.register-form{
+    margin: 5px auto;
+    background-color: #f7f7f7;
+    padding: 15px;
+    border: 2px dotted #acabab;
+}
+
+.input-box{ /*sdt*/
+    margin-bottom: 10px;
+}
+
+.input-box input[type='text'],
+.input-box input[type='password']
+{   /*ô nhập */
+    width: 1420px;
+    padding: 0px 10px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+    display: inline-block;
+    height: 40px;
+    color: #666666;
+}
+
+.btn-box{
+    text-align: right;
+    padding-top: 20px;
+}
+.btn-box button{
+    padding: 10px 20px;
+    border-radius: 2px;
+    background-color: #009999;
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+    outline: none; 
+}
+.btn-box button:hover{
+    background-color: #0765b7;
+    cursor: pointer;
+}
+/*tao tk moi*/
+.btn-tk{
+    text-align: right;
+    margin-top: 30px;
+}
+.btn-tk button{
+    padding: 10px 15px;
+    border-radius: 2px;
+    background-color: #009999;  
+    border: none;
+    outline: none;
+}
+.btn-tk button:hover{
+    background-color: #0765b7;
+}
+.btn-tk button a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+.btn-tk button a:hover{
+    text-decoration: underline;
+}
+
+/* end form dk */
+
+/* menu dưới */
+.atl {
+    background-color: #f7f7f7;
+    padding-top: 20px;
+    padding-right: 10px;
+    display: flex;
+    font-size: 20px;
+    line-height: 35px;
+    font-variant: small-caps;
+    font-weight: 600;
+    
+}
+.atl ul li{
+    color: rgb(21, 40, 255);
+}
+.atl ul li a{
+    text-decoration: none;
+    color: rgb(21, 40, 255);
+}
+.atl ul li a:hover{
+    text-decoration: underline;
+    color: blue;
+    font-size: 21px;
+}
+.img-lg{
+    padding-left: 20px;
+}
+/* icon */
+.icon{
+    text-align: center;
+    font-size: 25px;
+    
+}
+.icon li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.icon li i{
+    color: #1c609f;
+}
+.icon li i:hover{
+    color: rgb(21, 40, 255);
+}
+/* footer */
+
+.footer{
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer cite{
+    line-height: 25px;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(21, 40, 255);
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="trangchu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div id="content-all">
+            <header>
+                <div class="header">
+                    <div class="logo">
+                        <img src="./img/logo1.jpg" alt="img" width="180px" height="120px">
+                    </div>
+
+                    <div class="menu">
+                        <ul>
+                            <li><a href="trangchu.html">TRANG CHỦ</a></li>
+                            <span>|</span>
+                            <li><a href="thongtin.html">THÔNG TIN SẢN PHẨM</a></li>
+                            <span>|</span>
+                            <li><a href="daily.html">VỀ AQUAFINA</a></li>
+                            <span>|</span>
+                            <li>
+                                <a href="#">TÀI KHOẢN</a>
+                                <ul>
+                                    <li><a href="dangky.html" class="sign-in">Đăng Ký</a></li>
+                                    <li><a href="dangnhap.html" class="sign-up">Đăng Nhập</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="seach-box">
+                            <button class="seach-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            <input class="seach-text" type="text" placeholder="Search...">
+                        </form>
+                    </div>
+                </div>
+            </header>+
+
+            <nav>
+                <div class="img">
+                    <img src="./img/chainuoc.png" alt="img" width="600px" height="600px">
+                    <div class="nd-right">
+                        <div class="img1">
+                            <img src="./img/logo2.png" alt="" width="400px" height="200px">
+                        </div>
+                        <button type="button">Sản Phẩm</button>
+                        <button type="button">Thương Hiệu</button>
+                    </div>
+                </div>
+            </nav>
+            <hr>
+            <section>
+                <div class="content">
+                    <h1><ins> MỖI NGỤM ĐỀU CÓ LỢI CHO SỨC KHỎE</ins></h1>
+                    <p>Aquafina cho chúng tôi một thương hiệu hàng đầu trong thị trường nước đóng chai. Một lợi thế của
+                        Aquafina so với các thương hiệu khác là nó có thị phần cao hơn đáng kể, đặc biệt là ở các thị
+                        trường
+                        mới nổi .</p>
+                    <div class="video">
+                        <video src="./video/Aquafina – Thỏa Sức Thăng Hoa cùng Thanh Hằng!.mp4" width="100%"
+                            height="800px" autoplay muted loop> </video>
+                    </div>
+
+                </div>
+            </section>
+            <hr>
+
+            <article>
+                <div class="atl">
+                    <ul>
+                        <li><a href="">Về Aquafina</a></li>
+                        <li><a href="">Hỏi Đáp</a></li>
+                        <li><a href="">Hướng Dẫn Mua hàng</a></li>
+                        <li><a href="">Đặt Nước Aquafina</a></li>
+                        <li><a href="">Liên Hệ Chúng Tôi</a></li>
+                    </ul>
+
+                    <ul>
+                        <li><a href="">Điều khoản sử dụng</a></li>
+                        <li><a href="">Chính Sách Bảo Mật</a></li>
+                        <li><a href="">Đại Lý Sản Phẩm</a></li>
+                        <li><a href="">Thương Hiệu</a></li>
+                        <li><a href="">Chứng Nhận</a></li>
+                    </ul>
+
+                    <div class="img-lg">
+                        <div class="icon">
+                            <li><a href=""> <i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href=""> <i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        </div>
+                        <img src="./img/logo3.jpg" alt="" width="350px" height="200px">
+                    </div>
+                </div>
+            </article>
+
+            <footer>
+                <div class="footer">
+                    <p style="color: rgb(21, 40, 255);">
+                        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                    </p>
+                    <cite> Copyright © 2020 Aquafina Vietnam <br>
+                        AQUAFINA LÀ THƯƠNG HIỆU NƯỚC UỐNG ĐÓNG CHAI CỦA PEPSICO-SUNTORY. <br>
+                        Đây là kênh bán hàng của The Water MAN - nhà phân phối nước suối Aquafina.
+                    </cite>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop()) {
+                    $('header').addClass('sticky');
+                } else {
+                    $('header').removeClass('sticky');
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
