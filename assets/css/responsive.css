@@ -1,0 +1,29 @@
+/* PC */
+@media (min-width:1024px){
+
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    #header .menu-btn{
+        float: right;
+        line-height: 46px;
+        padding: 0 21px;
+        display: none;
+    }
+}
+/* Mobile */
+@media (max-width: 740px){
+    #nav > li {
+        display: block;
+    }
+
+    #header .seachbtn{
+        display: none;
+    }
+
+    #header .menu-btn{
+        float: right;
+        line-height: 46px;
+        padding: 0 21px;
+    }
+}
